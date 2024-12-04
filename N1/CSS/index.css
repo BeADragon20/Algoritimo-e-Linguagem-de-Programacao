@@ -1,0 +1,80 @@
+header.text-center {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.headerLinks {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headerLinks a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(196, 12, 12, 0.1);
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Ajusta a imagem para cobrir a área sem distorção */
+}
+
+.card-body {
+    background-color: #5ba70f; /* Fundo preto para o título */
+    padding: 10px;
+}
+
+.card-title {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: aquamarine;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para o mapa responsivo */
+.map-responsive{
+    overflow: hidden;
+    padding-bottom:56.25%; /* 16:9 */
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* Responsividade adicional para os cartões */
+@media (max-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

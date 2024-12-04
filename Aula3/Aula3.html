@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Demosntração de Formulário em HTML5</h3>
+    <form>
+        Primeiro Nome: <input type="text" name="primeiro_nome"><br>
+        Ultimo Nome: <input type="text" name="ultimo_nome"><br>
+    </form>
+    <h3>Radio Buttom</h3>
+    <h3>Escolha o seu genero: </h3>
+    <form>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="genero" id="masc" value="masculino"><br>
+        <label for="femi">Feminino</label>
+        <input type="radio" name="genero" id="Femi" value="feminino"><br>
+    </form>
+    <form action="mailto:alguem@alguem.com" method="post" enctype="text/plain">
+        Nome: <input type="text" name="nome" value="seu nome"><br>
+        E-mail: <input type="email" name="email" value="seu email">
+        Comentário: <br>
+        <textarea rows="6" cols="50" placeholder="Comentário"></textarea>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    </form>
+
+    <br>
+    <br>
+
+    <form action="mailto:alguem@alguem.com" method="post" enctype="text/plain">
+        Escolher um arquivo para carregar quando clicar no botão abaixo: <br>
+        <input type="file" value="arquivo"><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    </form>
+</body>
+</html>

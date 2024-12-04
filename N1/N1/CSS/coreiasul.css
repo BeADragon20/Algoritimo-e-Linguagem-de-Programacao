@@ -1,0 +1,27 @@
+header {
+    background-color: #4a90e2;
+    padding: 10px;
+}
+
+h1, h2 {
+    color: #003366;
+}
+
+p {
+    color: #555;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+}

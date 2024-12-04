@@ -1,0 +1,34 @@
+h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px red;
+}
+div{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    box-shadow: 10px 10px 5px lightcoral;
+    border-radius: 10px;
+}
+.movendo{
+    transform: translate(330px, 100px);
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    border: 10px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+}
+
+#divBemDiv{
+    transform: translate(30px, 100px);
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    box-shadow: 10px 10px 5px rgb(17, 0, 253);
+    border-radius: 10px;
+    transform: rotate(20deg);
+}
+div#meuMatrix{
+    box-shadow: 10px 10px 5px rgb(0, 253, 0);
+    transform: matrix(1,0,0.5,1,150,0);
+}

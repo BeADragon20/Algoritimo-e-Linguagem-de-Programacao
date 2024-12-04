@@ -1,0 +1,43 @@
+
+<!--  BANCO DE DADOS MySql Workbench
+create database cadastro_db;
+use cadastro_db;
+create table usuarios{
+id int auto_increment primary key,
+nome varchar(50) not null,
+email varchar(50) not null unique,
+senha varchar(255) not null
+}; -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h2>Cadastro de Usuario</h2>
+        <!-- Formulario de Casdastro -->
+         <form id="castroForm" action="register.php" method="post" onsubmit="return validarFormulario()">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" name="senha" required>
+
+            <button type="submit">Cadastrar</button>
+            <p id="mensagem"></p>
+         </form>
+    </div>
+
+    <script src="scripts.js">
+
+    </script>
+</body>
+</html>

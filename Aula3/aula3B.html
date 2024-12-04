@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Continuação do formulario</h3>
+    <h3>Dados Pessoais</h3>
+    <form method="post" action="arquivo.php">
+        Primeiro Nome: <input type="text" name="primeiro_nome"><br>
+        Ultimo Nome: <input type="text" name="ultimo_nome"><br>
+        <input type="hidden" name="pais" value="Brasil">
+        <label for="masc">Masculino</label>
+        <input type="radio" name="genero" id="masc" value="masculino"><br>
+        <label for="masc">Feminino</label>
+        <input type="radio" name="genero" id="Femi" value="feminino"><br>
+        E-mail: <input type="email" name="email" value="seu email"> <br>
+        Senha: <input type="password" name="Senha"><br>
+        Ocupação <br>
+        <select id="ocupacao" name="ocupado">
+            <optgroup label="Técnico">
+                <option label="Desenvolvedor" value="desenvolvedor"></option>
+                <option label="Web Designer" value="designer"></option>
+            </optgroup>
+
+            <optgroup label="Não Técnico">
+                <option label="Consultor" value="consultor"></option>
+                <option label="Gerente" value="gerente"></option>
+            </optgroup>
+            <option label="Outro" value="outro"></option>
+        </select>
+        <br><br>
+        Preferencias: <br>
+        <input type="checkbox" id="pref1" name="prefs" value="newsletter">Envie-me um Newsletter <br>
+        <input type="checkbox" id="pref2" name="prefs" value="parceiros">Envie-me ofertas dos Parceiros <br>
+        <input type="checkbox" id="pref3" name="prefs" value="marketing">Envie-me material de propaganda<br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+
+    </form>
+</body>
+</html>

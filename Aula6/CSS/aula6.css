@@ -1,0 +1,85 @@
+div.relative{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73ad21;
+}
+
+div.absolute{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73ad25;
+}
+
+div{
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    overflow: scroll;
+
+}
+
+#canto1{
+    border-radius: 25px;
+    background: rgb(49, 40, 57);
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+#canto2{
+    border-radius: 25px;
+    border: 2px solid #73ad21;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+#canto3{
+    border-radius: 25px;
+    background: url(/IMG/imagemsol.jpg);
+    background-position: left top;
+    background-size: 240px auto;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+#exemploplano{
+    background: url(/IMG/imagemsol.jpg) left top no-repeat,
+    url(./IMG/imagemale.png) right bottom no-repeat,
+    url(./IMG/imagemale2.png) left top repeat;
+    background-size: 120px, 80px, auto;
+}
+
+#grad1{
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(blue,red,yellow,blue);
+}
+#grad2{
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+}
+
+#grad3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: conic-gradient(red,orange,yellow);
+}
+#grad4{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: radial-gradient(red,orange,yellow);
+}
+
+
+

@@ -1,0 +1,115 @@
+body{
+    
+    background: url('./IMG/fundo.png');
+    background-size:100% 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.caixalogin{
+    background-color: rgba(0,0,0, 0.4);
+    width: 300px;
+    padding: 40px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 20px 20px;
+    position: relative;
+}
+.caixalogin h2{
+    color: #fff;
+    text-align: Arial;
+    margin: 20px 0 30px;
+    font-family: Arial;
+    text-align: center;
+}
+.caixalogin .campo input{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background: transparent;
+    color: #fff;
+    letter-spacing: 3px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.caixalogin .campo{
+    position: relative;
+}
+
+.caixalogin .campo label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial;
+    pointer-events: none;
+    transition: .5s;
+}
+.caixalogin .campo input:focus~label,
+.caixalogin .campo input:valid~label{
+    top: -20px;
+    left: 0;
+    color: rgb(169, 125, 238);
+    font-size: 12px;
+} 
+.caixalogin button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #4d84eb, #eb7adc);
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#cadastro{
+    font-weight: bold;
+    color: #fff;
+    font-family: Arial;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.img-user {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: -10%;
+    position: absolute;
+}
+.img-user img{
+    width: 50%;
+}
+.home{
+        border: groove;
+            border-color:#cfb1f7;
+        outline: none;
+        text-align: Arial;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        background: linear-gradient(to right, #4d84eb, #eb7adc);
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+    

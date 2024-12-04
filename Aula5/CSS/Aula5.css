@@ -1,0 +1,49 @@
+/*Estamos programando em CSS3*/
+h1{
+    font-size: 36px;
+    color: chocolate;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 24px;
+    color: aqua;
+    text-decoration: line-through;
+    text-transform: none;
+}
+p{
+    text-indent: 2cm;
+    line-height: 4px;
+    text-align: center;
+}
+.alinhamentoEsquerda{
+    text-align: left;
+
+}
+
+.alinhamentoCentralizado{
+    text-align: center;
+    
+}
+
+.alinhamentoDireita{
+    text-align: right;
+    
+}
+/*# pega a ID*/
+#ExemploDeID{
+    font-weight: bold;
+}
+
+.Disciplinas{
+    text-decoration: underline;
+}
+
+body{
+    background-color: purple;
+    background-image: url('Niagara.jpg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+/*body{ background: #ffffff url("Niagara.jpg") no-repeat right top}*/
